@@ -1,0 +1,6 @@
+# Moto G30 rules
+
+/sys/devices/system/cpu/present r,
+/sys/devices/system/cpu/cpu[0-9]*/cpu_capacity r,
+/sys/devices/system/cpu/cpufreq/policy[0-9]*/cpuinfo_max_freq r,
+/sys/devices/platform/soc/5900000.qcom,kgsl-3d0/kgsl/kgsl-3d0/gpu_model r,
