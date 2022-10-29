@@ -11,10 +11,10 @@ wifi\
 flashlight\
 vibra\
 camera\
-audio
+audio\
+fingerprint sensor\
+bluetooth
 
 ### Broken:
 nfc\
-bluetooth\
-gps\
-fingerprint sensor
+gps
