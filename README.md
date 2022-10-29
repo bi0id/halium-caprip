@@ -9,10 +9,11 @@ ril\
 mobile data\
 wifi\
 flashlight\
-vibra
+vibra\
+camera\
+audio
 
 ### Broken:
-audio\
 nfc\
 bluetooth\
 gps\
