@@ -13,8 +13,9 @@ vibra\
 camera\
 audio\
 fingerprint sensor\
-bluetooth
+bluetooth\
+gps
 
 ### Broken:
 nfc\
-gps
+hardware video acceleration
