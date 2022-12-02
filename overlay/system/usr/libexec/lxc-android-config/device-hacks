@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ ! -e /dev/ipa ]; then
+    exit 0
+fi
+while ! mountpoint -q -- /android/vendor
+do
+    sleep 1
+done
+if [ -f /vendor/firmware/ipa_fws.mdt ]; then
+    echo 1 > /dev/ipa
+fi
+
+echo 1 > /sys/kernel/boot_wlan/boot_wlan
