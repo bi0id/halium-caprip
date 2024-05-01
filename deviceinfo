@@ -7,6 +7,8 @@ deviceinfo_kernel_source_branch="halium-11.0"
 deviceinfo_kernel_defconfig="caprip_defconfig"
 
 deviceinfo_bootimg_os_version="11"
+deviceinfo_halium_version="11"
+deviceinfo_ubuntu_touch_release="focal"
 deviceinfo_bootimg_os_patch_level="2021-02"
 deviceinfo_bootimg_header_version="3"
 deviceinfo_dtbo="vendor/qcom/bengal-caprip-dvt2-overlay.dtbo"
