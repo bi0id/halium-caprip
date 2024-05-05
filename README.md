@@ -5,14 +5,13 @@ Not usable rn because of no sound. \
 Everising else just fine.
 
 ## Current state:
+no audio (only Bluetooth)\
+
+?? nfc (where itmust be?)\
+?? HVAcceleration (youtube in browser looks norm)
+
 fingerprint sensor (not tested but mentioned in settings)\
 gps (not tested but mentioned in settings)
-
-ril (use "service ofono reset" in terminal)\
-audio (only BT audio)
-
-no nfc\
-no HVAcceleration
 
 ## Building:
 ./build.sh -b workdir\
