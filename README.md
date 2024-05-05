@@ -11,14 +11,13 @@ gps (not tested but mentioned in settings)
 ril (use "service ofono reset" in terminal)\
 audio (only BT audio)
 
-no flashlight\
 no nfc\
 no HVAcceleration
 
 ## Building:
 ./build.sh -b workdir\
 ./build/prepare-fake-ota.sh out/device_caprip_usrmerge.tar.xz ota\
-./build/system-image-from-ota.sh ota/ubuntu_command images\
+./build/system-image-from-ota.sh ota/ubuntu_command images
 
 ## Installing:
 All your firmware files are in 'images/' folder.\

@@ -12,3 +12,7 @@ if [ -f /vendor/firmware/ipa_fws.mdt ]; then
 fi
 
 echo 1 > /sys/kernel/boot_wlan/boot_wlan
+
+chown phablet /sys/class/leds/led:torch_0/brightness
+chown phablet /sys/class/leds/led:torch_1/brightness
+chown phablet  /sys/class/leds/led:switch_0/brightness
