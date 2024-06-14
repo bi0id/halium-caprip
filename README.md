@@ -6,13 +6,12 @@ Everising else just fine.
 
 ## Current state:
 no audio (only Bluetooth)\
+no gps
 
 ?? nfc (where itmust be?)\
 ?? HVAcceleration (youtube in browser looks norm)
 
-fingerprint sensor (not tested but mentioned in settings)\
-gps (not tested but mentioned in settings)
-
+adb (not stable. use "touch /data/.force_adb" from recovery)
 ## Building:
 ./build.sh -b workdir\
 ./build/prepare-fake-ota.sh out/device_caprip_usrmerge.tar.xz ota\
